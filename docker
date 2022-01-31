@@ -1,6 +1,6 @@
 #base image
-FROM openjdk:8
-COPY ./src/java
-WORKDIR /src/java
-RUN ["javac","Ex1.java"]
-ENTRYPOINT ["java","Ex1"]
+FROM openjdk:11
+COPY C:/Users/naveenrkumar/Desktop/JavaPipeline
+WORKDIR C:/Users/naveenrkumar/Desktop/JavaPipeline
+RUN javac Ex1.java
+CMD ["java", "Ex1"]
