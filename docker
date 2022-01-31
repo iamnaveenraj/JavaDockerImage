@@ -1,6 +1,0 @@
-#base image
-FROM openjdk:11
-COPY C:/Users/naveenrkumar/Desktop/JavaPipeline
-WORKDIR C:/Users/naveenrkumar/Desktop/JavaPipeline
-RUN javac Ex1.java
-CMD ["java", "Ex1"]
